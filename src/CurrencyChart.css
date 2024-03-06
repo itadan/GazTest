@@ -1,0 +1,43 @@
+.app{
+    width: 1200px;
+    margin: 0 auto;
+}
+.currency-text{
+    display: inline-block;
+    width: 600px;
+}
+.currency-buttons-container{
+    float: right;
+    margin-top: 30px;
+    border: 1px solid rgba(0, 66, 105, 0.28);
+    border-radius: 4px;
+    width: 99px;
+    height: 24px;
+}
+
+.currency-buttons button{
+    background: #fff;
+    padding: 0px 12px;
+    width: 33px;
+    height: 24px;
+    border: 0px;
+}
+.currency-buttons button:focus{
+    background: #0078d2;
+    color: #fff;
+}
+.currency-buttons-container button:nth-child(2) {
+    border-left: 1px solid rgba(0, 66, 105, 0.28);
+    border-right: 1px solid rgba(0, 66, 105, 0.28);
+}
+.ECharts{
+    display: inline-block;
+}
+.average{
+    display: inline-block;
+    }
+.blockM{
+    display: flex;
+    align-items:center;
+}
+    
